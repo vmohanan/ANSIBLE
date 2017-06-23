@@ -1,5 +1,5 @@
 - name: install and configure nginx for redplum
-  hosts: "{{ variable_host | default('redplum-nginx')}}"
+  hosts: "localhost"
   remote_user: ubuntu
   become: yes
   roles:
